@@ -1,5 +1,5 @@
 
-AVRASM ver. 2.2.7  C:\Users\WingedSeal\Documents\Atmel Studio\7.0\MorseCode\MorseCode\main.asm Fri Apr 04 10:22:00 2025
+AVRASM ver. 2.2.7  C:\Users\WingedSeal\Documents\Atmel Studio\7.0\MorseCode\MorseCode\main.asm Fri Apr 04 11:11:14 2025
 
 [builtin](2): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.3.300\avrasm\inc\m328pdef.inc'
 C:\Users\WingedSeal\Documents\Atmel Studio\7.0\MorseCode\MorseCode\main.asm(6): Including file 'C:\Users\WingedSeal\Documents\Atmel Studio\7.0\MorseCode\MorseCode\display.inc'
@@ -1399,12 +1399,6 @@ C:\Users\WingedSeal\Documents\Atmel Studio\7.0\MorseCode\MorseCode\main.asm(11):
                                  	STS PCMSK1, R16
                                  	SEI
                                  
-                                 	;LDI R16, (1 << WGM01) ; CTC
-                                 	;OUT TCCR0A, R16
-                                 	;LDI R16, (1 << CS02) ; Presc`aler 256
-                                 	;OUT TCCR0B, R16
-                                 	;LDI R16, 24 ; 16MHz / 256 / 25 = 0.1 Hz
-                                 	;OUT OCR0A, R16
                                  	LDI R16, 0
                                  	STS TCCR1A, R16
                                  	LDI R16, (1 << WGM12) | (1 << CS12) ; CTC mode + Prescaler 256
@@ -1483,6 +1477,8 @@ C:\Users\WingedSeal\Documents\Atmel Studio\7.0\MorseCode\MorseCode\main.asm(11):
 000107 e000                      	LDI R16, 0
 000108 9300 0085                     STS TCNT1H, R16
 00010a 9300 0084                 	STS TCNT1L, R16
+                                 	; To do a 16-bit write, the High byte must be written before the Low byte. 
+                                 	; For a 16-bit read, the Low byte must be read before the High byte
 00010c e002                      	LDI R16, (1 << OCF1A)
 00010d bb06                      	OUT TIFR1, R16
                                  	_LOOP_DELAY_TEST:

@@ -2,7 +2,7 @@
 
 MORSE_CODE:
 	; [0:2] = How many bits
-	; [3:8] = 0 for . , 1 for - followed by 0 padding
+	; [3:8] = 0 for . , 1 for - lead by 0 padding
 	.db 0b010_000_01, 0b100_0_1000 ; A .- , B -...
 	.db 0b100_0_1010, 0b011_00_100 ; C -.-. , D -..
 	.db 0b001_0000_0, 0b100_0_0010 ; E . , F ..-.

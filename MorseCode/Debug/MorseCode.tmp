@@ -29,16 +29,16 @@
  </OUTPUT_FILES>
  <LABELS>
   <main><FILE>C:\Users\WingedSeal\Documents\Atmel Studio\7.0\MorseCode\MorseCode\main.asm</FILE><LINE>23</LINE></main>
-  <pcint1_handler><FILE>C:\Users\WingedSeal\Documents\Atmel Studio\7.0\MorseCode\MorseCode\main.asm</FILE><LINE>74</LINE></pcint1_handler>
+  <pcint1_handler><FILE>C:\Users\WingedSeal\Documents\Atmel Studio\7.0\MorseCode\MorseCode\main.asm</FILE><LINE>76</LINE></pcint1_handler>
   <MORSE_CODE><FILE>C:\Users\WingedSeal\Documents\Atmel Studio\7.0\MorseCode\MorseCode\code.asm</FILE><LINE>3</LINE></MORSE_CODE>
   <SEVEN_SEGMENT_DISPLAY><FILE>C:\Users\WingedSeal\Documents\Atmel Studio\7.0\MorseCode\MorseCode\code.asm</FILE><LINE>24</LINE></SEVEN_SEGMENT_DISPLAY>
   <morse_code_input_during_input><FILE>C:\Users\WingedSeal\Documents\Atmel Studio\7.0\MorseCode\MorseCode\input.asm</FILE><LINE>9</LINE></morse_code_input_during_input>
   <_BUFFER_NOT_OVERFLOW><FILE>C:\Users\WingedSeal\Documents\Atmel Studio\7.0\MorseCode\MorseCode\input.asm</FILE><LINE>19</LINE></_BUFFER_NOT_OVERFLOW>
   <stop_during_input><FILE>C:\Users\WingedSeal\Documents\Atmel Studio\7.0\MorseCode\MorseCode\input.asm</FILE><LINE>23</LINE></stop_during_input>
-  <time_counter><FILE>C:\Users\WingedSeal\Documents\Atmel Studio\7.0\MorseCode\MorseCode\main.asm</FILE><LINE>39</LINE></time_counter>
-  <input_time_deltas><FILE>C:\Users\WingedSeal\Documents\Atmel Studio\7.0\MorseCode\MorseCode\main.asm</FILE><LINE>82</LINE></input_time_deltas>
-  <output_displays><FILE>C:\Users\WingedSeal\Documents\Atmel Studio\7.0\MorseCode\MorseCode\main.asm</FILE><LINE>81</LINE></output_displays>
-  <loop><FILE>C:\Users\WingedSeal\Documents\Atmel Studio\7.0\MorseCode\MorseCode\main.asm</FILE><LINE>36</LINE></loop>
+  <time_counter><FILE>C:\Users\WingedSeal\Documents\Atmel Studio\7.0\MorseCode\MorseCode\main.asm</FILE><LINE>41</LINE></time_counter>
+  <input_time_deltas><FILE>C:\Users\WingedSeal\Documents\Atmel Studio\7.0\MorseCode\MorseCode\main.asm</FILE><LINE>84</LINE></input_time_deltas>
+  <output_displays><FILE>C:\Users\WingedSeal\Documents\Atmel Studio\7.0\MorseCode\MorseCode\main.asm</FILE><LINE>83</LINE></output_displays>
+  <loop><FILE>C:\Users\WingedSeal\Documents\Atmel Studio\7.0\MorseCode\MorseCode\main.asm</FILE><LINE>38</LINE></loop>
   <morse_code_input_falling_edge_during_input><FILE>C:\Users\WingedSeal\Documents\Atmel Studio\7.0\MorseCode\MorseCode\input.asm</FILE><LINE>36</LINE></morse_code_input_falling_edge_during_input>
   <morse_code_input_not_during_input><FILE>C:\Users\WingedSeal\Documents\Atmel Studio\7.0\MorseCode\MorseCode\input.asm</FILE><LINE>44</LINE></morse_code_input_not_during_input>
   <go_left_not_during_input><FILE>C:\Users\WingedSeal\Documents\Atmel Studio\7.0\MorseCode\MorseCode\input.asm</FILE><LINE>54</LINE></go_left_not_during_input>
@@ -46,11 +46,11 @@
   <go_right_not_during_input><FILE>C:\Users\WingedSeal\Documents\Atmel Studio\7.0\MorseCode\MorseCode\input.asm</FILE><LINE>65</LINE></go_right_not_during_input>
   <_CANT_GO_RIGHT><FILE>C:\Users\WingedSeal\Documents\Atmel Studio\7.0\MorseCode\MorseCode\input.asm</FILE><LINE>70</LINE></_CANT_GO_RIGHT>
   <TODO><FILE>C:\Users\WingedSeal\Documents\Atmel Studio\7.0\MorseCode\MorseCode\main.asm</FILE><LINE>19</LINE></TODO>
-  <_LOOP_DELAY_TEST><FILE>C:\Users\WingedSeal\Documents\Atmel Studio\7.0\MorseCode\MorseCode\main.asm</FILE><LINE>31</LINE></_LOOP_DELAY_TEST>
-  <_TIME_COUNTER><FILE>C:\Users\WingedSeal\Documents\Atmel Studio\7.0\MorseCode\MorseCode\main.asm</FILE><LINE>41</LINE></_TIME_COUNTER>
-  <_PINC0_FALLING_EDGE_DETECTION><FILE>C:\Users\WingedSeal\Documents\Atmel Studio\7.0\MorseCode\MorseCode\main.asm</FILE><LINE>49</LINE></_PINC0_FALLING_EDGE_DETECTION>
-  <_PINC0_FALLING_EDGE_DETECTION_FAILED><FILE>C:\Users\WingedSeal\Documents\Atmel Studio\7.0\MorseCode\MorseCode\main.asm</FILE><LINE>58</LINE></_PINC0_FALLING_EDGE_DETECTION_FAILED>
-  <during_input><FILE>C:\Users\WingedSeal\Documents\Atmel Studio\7.0\MorseCode\MorseCode\main.asm</FILE><LINE>55</LINE></during_input>
-  <not_during_input><FILE>C:\Users\WingedSeal\Documents\Atmel Studio\7.0\MorseCode\MorseCode\main.asm</FILE><LINE>65</LINE></not_during_input>
+  <_LOOP_DELAY_TEST><FILE>C:\Users\WingedSeal\Documents\Atmel Studio\7.0\MorseCode\MorseCode\main.asm</FILE><LINE>33</LINE></_LOOP_DELAY_TEST>
+  <_TIME_COUNTER><FILE>C:\Users\WingedSeal\Documents\Atmel Studio\7.0\MorseCode\MorseCode\main.asm</FILE><LINE>43</LINE></_TIME_COUNTER>
+  <_PINC0_FALLING_EDGE_DETECTION><FILE>C:\Users\WingedSeal\Documents\Atmel Studio\7.0\MorseCode\MorseCode\main.asm</FILE><LINE>51</LINE></_PINC0_FALLING_EDGE_DETECTION>
+  <_PINC0_FALLING_EDGE_DETECTION_FAILED><FILE>C:\Users\WingedSeal\Documents\Atmel Studio\7.0\MorseCode\MorseCode\main.asm</FILE><LINE>60</LINE></_PINC0_FALLING_EDGE_DETECTION_FAILED>
+  <during_input><FILE>C:\Users\WingedSeal\Documents\Atmel Studio\7.0\MorseCode\MorseCode\main.asm</FILE><LINE>57</LINE></during_input>
+  <not_during_input><FILE>C:\Users\WingedSeal\Documents\Atmel Studio\7.0\MorseCode\MorseCode\main.asm</FILE><LINE>67</LINE></not_during_input>
  </LABELS>
 </ASSEMBLER_INFO>
