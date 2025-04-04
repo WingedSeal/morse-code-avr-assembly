@@ -25,12 +25,6 @@
 	STS PCMSK1, R16
 	SEI
 
-	;LDI R16, (1 << WGM01) ; CTC
-	;OUT TCCR0A, R16
-	;LDI R16, (1 << CS02) ; Presc`aler 256
-	;OUT TCCR0B, R16
-	;LDI R16, 24 ; 16MHz / 256 / 25 = 0.1 Hz
-	;OUT OCR0A, R16
 	LDI R16, 0
 	STS TCCR1A, R16
 	LDI R16, (1 << WGM12) | (1 << CS12) ; CTC mode + Prescaler 256
