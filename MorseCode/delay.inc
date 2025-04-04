@@ -1,0 +1,10 @@
+.macro delay100ms
+	LDI R16, 0
+	OUT TCNT0, R16
+	LDI R16, (1 << OCF0A)
+	OUT TIFR0, R16
+	_LOOP_DELAY:
+		IN R16, TIFR0
+		SBRS R16, OCF0A
+		RJMP _LOOP_DELAY
+.endmacro
