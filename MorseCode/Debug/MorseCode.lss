@@ -1,20 +1,22 @@
 
-AVRASM ver. 2.2.7  C:\Users\WingedSeal\Documents\Atmel Studio\7.0\MorseCode\MorseCode\main.asm Fri Apr 04 11:11:14 2025
+AVRASM ver. 2.2.7  C:\Users\WingedSeal\Documents\Atmel Studio\7.0\MorseCode\MorseCode\main.asm Fri May 02 12:49:50 2025
 
 [builtin](2): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.3.300\avrasm\inc\m328pdef.inc'
-C:\Users\WingedSeal\Documents\Atmel Studio\7.0\MorseCode\MorseCode\main.asm(6): Including file 'C:\Users\WingedSeal\Documents\Atmel Studio\7.0\MorseCode\MorseCode\display.inc'
-C:\Users\WingedSeal\Documents\Atmel Studio\7.0\MorseCode\MorseCode\main.asm(7): Including file 'C:\Users\WingedSeal\Documents\Atmel Studio\7.0\MorseCode\MorseCode\parse.inc'
-C:\Users\WingedSeal\Documents\Atmel Studio\7.0\MorseCode\MorseCode\main.asm(8): Including file 'C:\Users\WingedSeal\Documents\Atmel Studio\7.0\MorseCode\MorseCode\code.asm'
-C:\Users\WingedSeal\Documents\Atmel Studio\7.0\MorseCode\MorseCode\main.asm(9): Including file 'C:\Users\WingedSeal\Documents\Atmel Studio\7.0\MorseCode\MorseCode\input.asm'
-C:\Users\WingedSeal\Documents\Atmel Studio\7.0\MorseCode\MorseCode\main.asm(10): Including file 'C:\Users\WingedSeal\Documents\Atmel Studio\7.0\MorseCode\MorseCode\setup.inc'
-C:\Users\WingedSeal\Documents\Atmel Studio\7.0\MorseCode\MorseCode\main.asm(11): Including file 'C:\Users\WingedSeal\Documents\Atmel Studio\7.0\MorseCode\MorseCode\delay.inc'
+C:\Users\WingedSeal\Documents\Atmel Studio\7.0\MorseCode\MorseCode\main.asm(8): Including file 'C:\Users\WingedSeal\Documents\Atmel Studio\7.0\MorseCode\MorseCode\debug.asm'
+C:\Users\WingedSeal\Documents\Atmel Studio\7.0\MorseCode\MorseCode\main.asm(9): Including file 'C:\Users\WingedSeal\Documents\Atmel Studio\7.0\MorseCode\MorseCode\display.inc'
+C:\Users\WingedSeal\Documents\Atmel Studio\7.0\MorseCode\MorseCode\main.asm(10): Including file 'C:\Users\WingedSeal\Documents\Atmel Studio\7.0\MorseCode\MorseCode\parse.inc'
+C:\Users\WingedSeal\Documents\Atmel Studio\7.0\MorseCode\MorseCode\main.asm(11): Including file 'C:\Users\WingedSeal\Documents\Atmel Studio\7.0\MorseCode\MorseCode\code.asm'
+C:\Users\WingedSeal\Documents\Atmel Studio\7.0\MorseCode\MorseCode\main.asm(12): Including file 'C:\Users\WingedSeal\Documents\Atmel Studio\7.0\MorseCode\MorseCode\input.asm'
+C:\Users\WingedSeal\Documents\Atmel Studio\7.0\MorseCode\MorseCode\main.asm(13): Including file 'C:\Users\WingedSeal\Documents\Atmel Studio\7.0\MorseCode\MorseCode\setup.inc'
+C:\Users\WingedSeal\Documents\Atmel Studio\7.0\MorseCode\MorseCode\main.asm(14): Including file 'C:\Users\WingedSeal\Documents\Atmel Studio\7.0\MorseCode\MorseCode\delay.inc'
 [builtin](2): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.3.300\avrasm\inc\m328pdef.inc'
-C:\Users\WingedSeal\Documents\Atmel Studio\7.0\MorseCode\MorseCode\main.asm(6): Including file 'C:\Users\WingedSeal\Documents\Atmel Studio\7.0\MorseCode\MorseCode\display.inc'
-C:\Users\WingedSeal\Documents\Atmel Studio\7.0\MorseCode\MorseCode\main.asm(7): Including file 'C:\Users\WingedSeal\Documents\Atmel Studio\7.0\MorseCode\MorseCode\parse.inc'
-C:\Users\WingedSeal\Documents\Atmel Studio\7.0\MorseCode\MorseCode\main.asm(8): Including file 'C:\Users\WingedSeal\Documents\Atmel Studio\7.0\MorseCode\MorseCode\code.asm'
-C:\Users\WingedSeal\Documents\Atmel Studio\7.0\MorseCode\MorseCode\main.asm(9): Including file 'C:\Users\WingedSeal\Documents\Atmel Studio\7.0\MorseCode\MorseCode\input.asm'
-C:\Users\WingedSeal\Documents\Atmel Studio\7.0\MorseCode\MorseCode\main.asm(10): Including file 'C:\Users\WingedSeal\Documents\Atmel Studio\7.0\MorseCode\MorseCode\setup.inc'
-C:\Users\WingedSeal\Documents\Atmel Studio\7.0\MorseCode\MorseCode\main.asm(11): Including file 'C:\Users\WingedSeal\Documents\Atmel Studio\7.0\MorseCode\MorseCode\delay.inc'
+C:\Users\WingedSeal\Documents\Atmel Studio\7.0\MorseCode\MorseCode\main.asm(8): Including file 'C:\Users\WingedSeal\Documents\Atmel Studio\7.0\MorseCode\MorseCode\debug.asm'
+C:\Users\WingedSeal\Documents\Atmel Studio\7.0\MorseCode\MorseCode\main.asm(9): Including file 'C:\Users\WingedSeal\Documents\Atmel Studio\7.0\MorseCode\MorseCode\display.inc'
+C:\Users\WingedSeal\Documents\Atmel Studio\7.0\MorseCode\MorseCode\main.asm(10): Including file 'C:\Users\WingedSeal\Documents\Atmel Studio\7.0\MorseCode\MorseCode\parse.inc'
+C:\Users\WingedSeal\Documents\Atmel Studio\7.0\MorseCode\MorseCode\main.asm(11): Including file 'C:\Users\WingedSeal\Documents\Atmel Studio\7.0\MorseCode\MorseCode\code.asm'
+C:\Users\WingedSeal\Documents\Atmel Studio\7.0\MorseCode\MorseCode\main.asm(12): Including file 'C:\Users\WingedSeal\Documents\Atmel Studio\7.0\MorseCode\MorseCode\input.asm'
+C:\Users\WingedSeal\Documents\Atmel Studio\7.0\MorseCode\MorseCode\main.asm(13): Including file 'C:\Users\WingedSeal\Documents\Atmel Studio\7.0\MorseCode\MorseCode\setup.inc'
+C:\Users\WingedSeal\Documents\Atmel Studio\7.0\MorseCode\MorseCode\main.asm(14): Including file 'C:\Users\WingedSeal\Documents\Atmel Studio\7.0\MorseCode\MorseCode\delay.inc'
                                  
                                  .org 0x00
                                  
@@ -997,40 +999,63 @@ C:\Users\WingedSeal\Documents\Atmel Studio\7.0\MorseCode\MorseCode\main.asm(11):
                                  
                                  ; ***** END OF FILE ******************************************************
                                  
-000000 c0e0                      	RJMP main
+000000 c0f8                      	RJMP main
                                  .org PCI1addr
-000008 c128                      	RJMP pcint1_handler
+000008 c13c                      	RJMP pcint1_handler
                                  
+                                  ;.EQU _DEBUG = 1
+                                 
+                                 .include "debug.asm"
+                                 
+                                     LDI R16, high(UBRR_VALUE) 
+                                     STS UBRR0H, R16
+                                     LDI R16, low(UBRR_VALUE)
+                                     STS UBRR0L, R16 ; 9600 baud
+                                     LDI R16, (1<<TXEN0)
+                                     STS UCSR0B, R16
+                                     LDI R16, (1<<UCSZ01)|(1<<UCSZ00) ; 8 data bits, 1 stop bit, no parity
+                                     STS UCSR0C, R16
+                                 .endmacro
+                                 
+                                 .IFDEF _DEBUG
+                                 .ENDIF
                                  .include "display.inc"
                                  
+                                 	; R22 = index in Y
+                                 	; R23 = Y length
                                  	TST R23
                                  	BRNE _IS_NOT_ZERO
-                                 		LDI R16, 0x00
+                                 		LDI R16, DASH
                                  		OUT PORTD, R16
-                                 		LDI R16, 0x1F
-                                 		OUT PORTC, R16
                                  		RJMP _HANDLE_DISPLAY_DONE
+                                 		LDI R16, 0xFF
+                                 		OUT PORTB, R16
+                                 
                                  	_IS_NOT_ZERO:
-                                 	CPI YL, low(output_displays)
+                                 	INC R22
+                                 	CP R22, R23 ; R22 == R23 - 1
                                  	BRNE _IS_NOT_RIGHT_EDGE
-                                 		; _IS_RIGHT_EDGE
+                                 	; _IS_RIGHT_EDGE
                                  		SBI PORTB, 1
                                  		RJMP _CONTINUE_RIGHT_EDGE
                                  	_IS_NOT_RIGHT_EDGE:
                                  		CBI PORTB, 1
                                  	_CONTINUE_RIGHT_EDGE:
-                                 	LDI R16, low(output_displays)
-                                 	ADD R16, R23
-                                 	DEC R16
-                                 	CP YL, R16
+                                 	DEC R22
+                                 
+                                 	TST R22
                                  	BRNE _IS_NOT_LEFT_EDGE
-                                 		; _IS_LEFT_EDGE
+                                 	; _IS_LEFT_EDGE
                                  		SBI PORTB, 0
                                  		RJMP _CONTINUE_LEFT_EDGE
                                  	_IS_NOT_LEFT_EDGE:
                                  		CBI PORTB, 0
                                  	_CONTINUE_LEFT_EDGE:
+                                 
                                  	LD R16, Y
+                                 	.IFDEF _DEBUG
+                                 	CALL send_char
+                                 	.ENDIF
                                  	OUT PORTD, R16
                                  	_HANDLE_DISPLAY_DONE:
                                  .include "parse.inc"
@@ -1038,8 +1063,8 @@ C:\Users\WingedSeal\Documents\Atmel Studio\7.0\MorseCode\MorseCode\main.asm(11):
                                  
                                  .macro parseMorseCode
                                  	; Update X register and return morse code in R16 (return 0 if too many character)
-                                 	.EQU SHORT_LONG_THRESHOLD = 50
-                                 	.EQU CHAR_THRESHOLD = 200
+                                 	.EQU SHORT_LONG_THRESHOLD = 30
+                                 	.EQU CHAR_THRESHOLD = 50
                                  	LDI R16, 0
                                  	LDI R17, 0 ; Counts how many bits (first 3 bits of the result R16)
                                  	LOOP_TIME_DELTA:
@@ -1047,14 +1072,14 @@ C:\Users\WingedSeal\Documents\Atmel Studio\7.0\MorseCode\MorseCode\main.asm(11):
                                  		CPI R17, 6
                                  		BRLO _NOT_TOO_MANY_CHARS 
                                  			; handle unknown morse code, too many character
-                                 			LOOP_TOO_MANY_CHARS:
+                                 		LOOP_TOO_MANY_CHARS:
                                  				LD R0, X+
                                  				LD R18, X+
+                                 				SBIW R24:R25, 2
+                                 				BRCS _HANDLE_R24 ; Unsigned underflow 
+                                 				; (handling in case of odd number size)
                                  				CPI R18, CHAR_THRESHOLD
                                  				BRSH LOOP_TIME_DELTA_DONE
-                                 				SBIW R24:R25, 2
-                                 				BRCS _HANDLE_R24_EARLY_RETURN ; Unsigned underflow 
-                                 				; (handling in case of odd number size)
                                  				RJMP LOOP_TOO_MANY_CHARS
                                  		_NOT_TOO_MANY_CHARS:
                                  		LSL R16
@@ -1066,10 +1091,10 @@ C:\Users\WingedSeal\Documents\Atmel Studio\7.0\MorseCode\MorseCode\main.asm(11):
                                  		_SHORT:
                                  			; PASS
                                  		LD R18, X+
-                                 		CPI R18, CHAR_THRESHOLD
-                                 		BRSH LOOP_TIME_DELTA_DONE
                                  		SBIW R24:R25, 2
                                  		BRCS _HANDLE_R24 ; Unsigned underflow (handling in case of odd number size)
+                                 		CPI R18, CHAR_THRESHOLD
+                                 		BRSH LOOP_TIME_DELTA_DONE
                                  		RJMP LOOP_TIME_DELTA
                                  	_HANDLE_R24:
                                  	LDI R24, 0
@@ -1080,11 +1105,15 @@ C:\Users\WingedSeal\Documents\Atmel Studio\7.0\MorseCode\MorseCode\main.asm(11):
                                  	LSL R17
                                  	LSL R17
                                  	LSL R17
+                                 
                                  	OR R16, R17
+                                 
+                                 	RJMP _END_PARSE_MORSE_CODE
                                  	_HANDLE_R24_EARLY_RETURN:
                                  	LDI R24, 0
                                  	LDI R25, 0
                                  	_END_PARSE_MORSE_CODE:
+                                 
                                  .endmacro
                                  
                                  .macro updateOutputDisplays
@@ -1100,21 +1129,22 @@ C:\Users\WingedSeal\Documents\Atmel Studio\7.0\MorseCode\MorseCode\main.asm(11):
                                  			ST Y+, R16
                                  			RJMP _END_SEARCH_MORSE_CODE
                                  		_R16_IS_NOT_ZERO:
-                                 		LDI ZL, low(MORSE_CODE)
-                                 		LDI ZH, high(MORSE_CODE)
+                                 		LDI ZH, high(MORSE_CODE << 1)
+                                 		LDI ZL, low(MORSE_CODE << 1)
                                  		LOOP_SEARCH_MORSE_CODE:
                                  			LPM R17, Z+ ; Morse Code
-                                 			CPI ZL, low(MORSE_CODE + MORSE_CODE_SIZE)
-                                 			LDI R16, high(MORSE_CODE + MORSE_CODE_SIZE)
-                                 			CPC ZH, R16
+                                 			CPI ZL, low((MORSE_CODE << 1) + MORSE_CODE_SIZE)
+                                 			LDI R18, high((MORSE_CODE << 1) + MORSE_CODE_SIZE)
+                                 			CPC ZH, R18
                                  			BRNE _MATCH
+                                 			; _NO_MATCH
                                  				LDI R16, DASH
                                  				ST Y+, R16
                                  				RJMP _END_SEARCH_MORSE_CODE
                                  			_MATCH:
                                  			CP R16, R17
                                  			BRNE LOOP_SEARCH_MORSE_CODE
-                                 		ADIW Z, MORSE_CODE_SIZE
+                                 		ADIW Z, (MORSE_CODE_SIZE - 1)
                                  		LPM R16, Z ; Display
                                  		ST Y+, R16
                                  		_END_SEARCH_MORSE_CODE:
@@ -1124,13 +1154,16 @@ C:\Users\WingedSeal\Documents\Atmel Studio\7.0\MorseCode\MorseCode\main.asm(11):
                                  	MOV R23, YL
                                  	SUBI R23, low(output_displays) ; Since the difference is guaranteed to be 
                                  	; within a byte, high byte can be safely ignored
+                                 	LDI YL, low(output_displays)
+                                 	LDI YH, high(output_displays)
+                                 	LDI R22, 0 ; Starts displaying at index 0 (no longer used for time counter)
                                  .endmacro
                                  .include "code.asm"
                                  
                                  
                                  MORSE_CODE:
                                  	; [0:2] = How many bits
-                                 	; [3:8] = 0 for . , 1 for - followed by 0 padding
+                                 	; [3:8] = 0 for . , 1 for - lead by 0 padding
 000009 8841                      	.db 0b010_000_01, 0b100_0_1000 ; A .- , B -...
 00000a 648a                      	.db 0b100_0_1010, 0b011_00_100 ; C -.-. , D -..
 00000b 8220                      	.db 0b001_0000_0, 0b100_0_0010 ; E . , F ..-.
@@ -1149,26 +1182,32 @@ C:\Users\WingedSeal\Documents\Atmel Studio\7.0\MorseCode\MorseCode\main.asm(11):
 000018 b0a0                      	.db 0b101__00000, 0b101__10000 ; 5 ..... , 6 -....
 000019 bcb8                      	.db 0b101__11000, 0b101__11100 ; 7 --... , 8 ---..
 00001a bfbe                      	.db 0b101__11110, 0b101__11111 ; 9 ----. , 0 -----
+                                 
+                                 
+                                 
+                                 .IFDEF _DEBUG
+                                 .ELSE
                                  SEVEN_SEGMENT_DISPLAY:
                                  	; 0b0abcdefg
-00001b 7c77                      	.db 0b01110111, 0b01111100 ; A, B 
-00001c 5e39                      	.db 0b00111001, 0b01011110 ; C, D
-00001d 7179                      	.db 0b01111001, 0b01110001 ; E, F
-00001e 763d                      	.db 0b00111101, 0b01110110 ; G, H
-00001f 1e30                      	.db 0b00110000, 0b00011110 ; I, J
-000020 3875                      	.db 0b01110101, 0b00111000 ; K, L
-000021 3715                      	.db 0b00010101, 0b00110111 ; M, N
-000022 733f                      	.db 0b00111111, 0b01110011 ; O, P
-000023 336b                      	.db 0b01101011, 0b00110011 ; Q, R
-000024 786d                      	.db 0b01101101, 0b01111000 ; S, T
-000025 3e3e                      	.db 0b00111110, 0b00111110 ; U, V
-000026 762a                      	.db 0b00101010, 0b01110110 ; W, X
-000027 5b6e                      	.db 0b01101110, 0b01011011 ; Y, Z
-000028 5b06                      	.db 0b00000110, 0b01011011 ; 1, 2
-000029 664f                      	.db 0b01001111, 0b01100110 ; 3, 4
-00002a 7d6d                      	.db 0b01101101, 0b01111101 ; 5, 6
-00002b 7f07                      	.db 0b00000111, 0b01111111 ; 7, 8
-00002c 3f6f                      	.db 0b01101111, 0b00111111 ; 9, 0
+00001b 1f77                      	.db 0b0_1110111, 0b0_0011111 ; A, B 
+00001c 3d0d                      	.db 0b0_0001101, 0b0_0111101 ; C, D
+00001d 474f                      	.db 0b0_1001111, 0b0_1000111 ; E, F
+00001e 175e                      	.db 0b0_1011110, 0b0_0010111 ; G, H
+00001f 5844                      	.db 0b0_1000100, 0b0_1011000 ; I, J
+000020 0e57                      	.db 0b0_1010111, 0b0_0001110 ; K, L
+000021 1555                      	.db 0b0_1010101, 0b0_0010101 ; M, N
+000022 671d                      	.db 0b0_0011101, 0b0_1100111 ; O, P
+000023 0573                      	.db 0b0_1110011, 0b0_0000101 ; Q, R
+000024 0f5a                      	.db 0b0_1011010, 0b0_0001111 ; S, T
+000025 2a1c                      	.db 0b0_0011100, 0b0_0101010 ; U, V
+000026 142b                      	.db 0b0_0101011, 0b0_0010100 ; W, X
+000027 6c3b                      	.db 0b0_0111011, 0b0_1101100 ; Y, Z
+000028 6d30                      	.db 0b0_0110000, 0b0_1101101 ; 1, 2
+000029 3379                      	.db 0b0_1111001, 0b0_0110011 ; 3, 4
+00002a 5f5b                      	.db 0b0_1011011, 0b0_1011111 ; 5, 6
+00002b 7f70                      	.db 0b0_1110000, 0b0_1111111 ; 7, 8
+00002c 7e7b                      	.db 0b0_1111011, 0b0_1111110 ; 9, 0
+                                 .ENDIF
                                  
                                  .include "input.asm"
                                  
@@ -1179,200 +1218,244 @@ C:\Users\WingedSeal\Documents\Atmel Studio\7.0\MorseCode\MorseCode\main.asm(11):
                                  	SEI
                                  .endmacro
                                  
+                                 .EQU IGNORE_THRESHOLD = 3
+                                 
+                                 handle_last_input_below_threshold:
+00002d 0f60                      	ADD R22, R16
+00002e f040                      	BRCS UNSIGNED_OVERFLOW
+00002f 910e                      	LD R16, -X
+000030 0f60                      	ADD R22, R16
+000031 f028                      	BRCS UNSIGNED_OVERFLOW
+                                 	OVERFLOW_OR_NOT:
+000032 936d                      	ST X+, R22
+000033 900f
+000034 900f
+000035 9478                      	noRETI
+000036 c0ed                      	RJMP time_counter
+                                 	UNSIGNED_OVERFLOW:
+000037 ef6f                      		LDI R22, 0xFF
+000038 cff9                      		RJMP OVERFLOW_OR_NOT
+                                 
                                  morse_code_input_during_input:
-00002d e071                      	LDI R23, 1
-00002e ef0f                      	LDI R16, 0xFF
-00002f b905                      	OUT PORTB, R16
-000030 936d                      	ST X+, R22
-000031 e001                      	LDI R16, high(OUTPUT_BUFFER_SIZE)
-000032 3080                      	CPI R24, low(OUTPUT_BUFFER_SIZE)
-000033 0790                      	CPC R25, R16
-000034 f409                      	BRNE _BUFFER_NOT_OVERFLOW
-000035 c004                      		RJMP stop_during_input
+000039 e071                      	LDI R23, 1 ; Indicate holding button
+00003a 910e                      	LD R16, -X
+00003b 3003                      	CPI R16, IGNORE_THRESHOLD
+00003c f380                      	BRLO handle_last_input_below_threshold
+00003d 9611                      	ADIW X, 1
+00003e ef0f                      	LDI R16, 0xFF
+00003f b905                      	OUT PORTB, R16
+000040 936d                      	ST X+, R22
+000041 e001                      	LDI R16, high(OUTPUT_BUFFER_SIZE)
+000042 3080                      	CPI R24, low(OUTPUT_BUFFER_SIZE)
+000043 0790                      	CPC R25, R16
+000044 f409                      	BRNE _BUFFER_NOT_OVERFLOW
+000045 c010                      		RJMP stop_during_input
                                  	_BUFFER_NOT_OVERFLOW:
-000036 900f
-000037 900f
-000038 9478                      	noRETI
-000039 c0d9                      	RJMP time_counter
+000046 900f
+000047 900f
+000048 9478                      	noRETI
+000049 c0da                      	RJMP time_counter
+                                 
+                                 
+                                 morse_code_input_falling_edge_during_input:
+00004a e070                      	LDI R23, 0 ; Indicate releasing button
+00004b 910e                      	LD R16, -X
+00004c 3003                      	CPI R16, IGNORE_THRESHOLD
+00004d f2f8                      	BRLO handle_last_input_below_threshold
+00004e 9611                      	ADIW X, 1
+00004f e000                      	LDI R16, 0x00
+000050 b905                      	OUT PORTB, R16
+000051 936d                      	ST X+, R22
+000052 900f
+000053 900f
+000054 9478                      	noRETI
+000055 c0ce                      	RJMP time_counter
                                  
                                  stop_during_input:
-00003a 94e8                      	CLT ; Update state to not during input
-00003b 936d                      	ST X+, R22
-00003c 01cd                      	MOVW R24:R25, X
-00003d e0a0                      	LDI XL, low(input_time_deltas)
-00003e e0b2                      	LDI XH, high(input_time_deltas)
-00003f 1b8a                      	SUB R24, XL
-000040 0b9b                      	SBC R25, XH
-000041 e0c0
-000042 e0d1
-000043 e000
-000044 e010
-000045 9513
-000046 3016
-000047 f038
-000048 900d
-000049 912d
-00004a 3c28
-00004b f480
-00004c 9702
-00004d f0a0
-00004e cff9
-00004f 0f00
-000050 912d
-000051 3322
-000052 f008
-000053 9503
-000054 912d
-000055 3c28
-000056 f428
-000057 9702
-000058 f008
-000059 cfeb
-00005a e080
-00005b e090
-00005c 0f11
-00005d 0f11
-00005e 0f11
-00005f 0f11
-000060 0f11
-000061 2b01
-000062 e080
-000063 e090
-000064 2300
-000065 f419
-000066 e001
-000067 9309
-000068 c00f
-000069 e0e9
-00006a e0f0
-00006b 9115
-00006c 32ed
-00006d e000
-00006e 07f0
-00006f f419
-000070 e001
-000071 9309
-000072 c005
-000073 1701
-000074 f7b1
-000075 96b4
-000076 9104
-000077 9309
-000078 2f78
-000079 2b79
-00007a f641
-00007b 2f7c
-00007c 5070                      	updateOutputDisplays
-00007d 2377
-00007e f429
-00007f e000
-000080 b90b
-000081 e10f
-000082 b908
-000083 c00f
-000084 30c0
-000085 f411
-000086 9a29
-000087 c001
-000088 9829
-000089 e000
-00008a 0f07
-00008b 950a
-00008c 17c0
-00008d f411
-00008e 9a28
-00008f c001
-000090 9828
-000091 8108
-000092 b90b                      	handleDisplay
-000093 900f
-000094 900f
-000095 9478                      	noRETI
-000096 c07b                      	RJMP loop
+000056 94e8                      	CLT ; Update state to not during input
+000057 ef6f                      	LDI R22, 255
+000058 936d                      	ST X+, R22
                                  
-                                 morse_code_input_falling_edge_during_input:	
-000097 e070                      	LDI R23, 0
-000098 e000                      	LDI R16, 0x00
-000099 b905                      	OUT PORTB, R16
-00009a 936d                      	ST X+, R22
-00009b 900f
-00009c 900f
-00009d 9478                      	noRETI
-00009e c074                      	RJMP time_counter
+000059 01cd                      	MOVW R24:R25, X
+00005a e0a0                      	LDI XL, low(input_time_deltas)
+00005b e0b2                      	LDI XH, high(input_time_deltas)
+                                 	
+00005c 1b8a                      	SUB R24, XL
+00005d 0b9b                      	SBC R25, XH
+                                 
+                                 	.IFDEF _DEBUG
+                                 	.ENDIF
+00005e e0c0
+00005f e0d1
+000060 e000
+000061 e010
+000062 9513
+000063 3016
+000064 f038
+000065 900d
+000066 912d
+000067 9702
+000068 f070
+000069 3322
+00006a f470
+00006b cff9
+00006c 0f00
+00006d 912d
+00006e 312e
+00006f f008
+000070 9503
+000071 912d
+000072 9702
+000073 f018
+000074 3322
+000075 f418
+000076 cfeb
+000077 e080
+000078 e090
+000079 0f11
+00007a 0f11
+00007b 0f11
+00007c 0f11
+00007d 0f11
+00007e 2b01
+00007f c002
+000080 e080
+000081 e090
+000082 2300
+000083 f419
+000084 e001
+000085 9309
+000086 c00f
+000087 e0f0
+000088 e1e2
+000089 9115
+00008a 33e6
+00008b e020
+00008c 07f2
+00008d f419
+00008e e001
+00008f 9309
+000090 c005
+000091 1701
+000092 f7b1
+000093 96b3
+000094 9104
+000095 9309
+000096 2f78
+000097 2b79
+000098 f639
+000099 2f7c
+00009a 5070
+00009b e0c0
+00009c e0d1
+00009d e060                      	updateOutputDisplays
+                                 	.IFDEF _DEBUG
+                                 	.ENDIF
+00009e 2377
+00009f f429
+0000a0 e001
+0000a1 b90b
+0000a2 c010
+0000a3 ef0f
+0000a4 b905
+0000a5 9563
+0000a6 1767
+0000a7 f411
+0000a8 9a29
+0000a9 c001
+0000aa 9829
+0000ab 956a
+0000ac 2366
+0000ad f411
+0000ae 9a28
+0000af c001
+0000b0 9828
+0000b1 8108
+0000b2 b90b                      	handleDisplay
+                                 	
+0000b3 900f
+0000b4 900f
+0000b5 9478                      	noRETI
+0000b6 c06c                      	RJMP loop
+                                 
+                                 
                                  
                                  morse_code_input_not_during_input:
-00009f 9468                      	SET ; Update state to during input
-0000a0 e071                      	LDI R23, 1
-0000a1 ee0f                      	LDI R16, 0xEF
-0000a2 b90b                      	OUT PORTD, R16
-0000a3 ef0f                      	LDI R16, 0xFF
-0000a4 b905                      	OUT PORTB, R16
-0000a5 900f
-0000a6 900f
-0000a7 9478                      	noRETI
-0000a8 c06a                      	RJMP time_counter
-                                 
-                                 go_left_not_during_input:
-0000a9 e000                      	LDI R16, low(output_displays)
-0000aa 0f07                      	ADD R16, R23
-0000ab 950a                      	DEC R16
-0000ac 17c0                      	CP YL, R16
-0000ad f0b9                      	BREQ _CANT_GO_LEFT
-0000ae 9621                      		ADIW Y, 1
-0000af 2377
-0000b0 f429
-0000b1 e000
-0000b2 b90b
-0000b3 e10f
-0000b4 b908
-0000b5 c00f
-0000b6 30c0
-0000b7 f411
-0000b8 9a29
-0000b9 c001
-0000ba 9829
-0000bb e000
-0000bc 0f07
-0000bd 950a
-0000be 17c0
-0000bf f411
-0000c0 9a28
-0000c1 c001
-0000c2 9828
-0000c3 8108
-0000c4 b90b                      		handleDisplay
-                                 	_CANT_GO_LEFT:
-0000c5 9518                      	RETI
+0000b7 9468                      	SET ; Update state to during input
+0000b8 e071                      	LDI R23, 1
+0000b9 e70f                      	LDI R16, 0x7F
+0000ba b90b                      	OUT PORTD, R16
+0000bb ef0f                      	LDI R16, 0xFF
+0000bc b905                      	OUT PORTB, R16
+0000bd e0a0                      	LDI XL, low(input_time_deltas)
+0000be e0b2                      	LDI XH, high(input_time_deltas)
+0000bf 900f
+0000c0 900f
+0000c1 9478                      	noRETI
+0000c2 c061                      	RJMP time_counter
                                  
                                  go_right_not_during_input:
-0000c6 30c0                      	CPI YL, low(output_displays)
-0000c7 f0b9                      	BREQ _CANT_GO_RIGHT
-0000c8 9721                      		SBIW Y, 1
-0000c9 2377
-0000ca f429
-0000cb e000
-0000cc b90b
-0000cd e10f
-0000ce b908
-0000cf c00f
-0000d0 30c0
-0000d1 f411
-0000d2 9a29
-0000d3 c001
-0000d4 9829
-0000d5 e000
-0000d6 0f07
-0000d7 950a
-0000d8 17c0
-0000d9 f411
-0000da 9a28
-0000db c001
-0000dc 9828
-0000dd 8108
-0000de b90b                      		handleDisplay
+0000c3 9563                      	INC R22
+0000c4 1767                      	CP R22, R23 ; R22 == R23 - 1
+0000c5 f0b9                      	BREQ _CANT_GO_RIGHT
+                                 	; _CAN_GO_RIGHT
+0000c6 9621                      		ADIW Y, 1
+0000c7 2377
+0000c8 f429
+0000c9 e001
+0000ca b90b
+0000cb c010
+0000cc ef0f
+0000cd b905
+0000ce 9563
+0000cf 1767
+0000d0 f411
+0000d1 9a29
+0000d2 c001
+0000d3 9829
+0000d4 956a
+0000d5 2366
+0000d6 f411
+0000d7 9a28
+0000d8 c001
+0000d9 9828
+0000da 8108
+0000db b90b                      		handleDisplay
+0000dc 9563                      		INC R22
                                  	_CANT_GO_RIGHT:
+0000dd 956a                      	DEC R22
+0000de 9518                      	RETI
+                                 
+                                 go_left_not_during_input:
+0000df 2366                      	TST R22
+0000e0 f0b9                      	BREQ _CANT_GO_LEFT
+                                 	; _CAN_GO_LEFT
+0000e1 9721                      		SBIW Y, 1
+0000e2 956a                      		DEC R22
+0000e3 2377
+0000e4 f429
+0000e5 e001
+0000e6 b90b
+0000e7 c010
+0000e8 ef0f
+0000e9 b905
+0000ea 9563
+0000eb 1767
+0000ec f411
+0000ed 9a29
+0000ee c001
+0000ef 9829
+0000f0 956a
+0000f1 2366
+0000f2 f411
+0000f3 9a28
+0000f4 c001
+0000f5 9828
+0000f6 8108
+0000f7 b90b                      		handleDisplay
+                                 	_CANT_GO_LEFT:
                                  .include "setup.inc"
-0000df 9518                      
+0000f8 9518                      
                                  	; PORTD0-6 : 7-segment display
                                  	; PORTB0 : indicate furthest left
                                  	; PORTB1 : indicate furthest right
@@ -1384,13 +1467,13 @@ C:\Users\WingedSeal\Documents\Atmel Studio\7.0\MorseCode\MorseCode\main.asm(11):
                                  	OUT SPL, R16
                                  	LDI R16, high(RAMEND)
                                  	OUT SPH, R16
-                                 	LDI R16, 0xEF
+                                 	LDI R16, 0x7F
                                  	OUT DDRD, R16
                                  	LDI R16, 0x03
                                  	OUT DDRB, R16
                                  	LDI R16, 0x0
                                  	OUT DDRC, R16
-                                 	LDI R16, 0x1F
+                                 	LDI R16, 0x0F
                                  	OUT PORTC, R16
                                  
                                  	LDI R16, (1 << PCIE1)
@@ -1403,9 +1486,11 @@ C:\Users\WingedSeal\Documents\Atmel Studio\7.0\MorseCode\MorseCode\main.asm(11):
                                  	STS TCCR1A, R16
                                  	LDI R16, (1 << WGM12) | (1 << CS12) ; CTC mode + Prescaler 256
                                  	STS TCCR1B, R16
-                                 	LDI R16, high(6249) ; 16MHz / 256 / 6250 = 10Hz (100ms)
+                                 	.EQU Hz = 100 ; 10ms
+                                 	.EQU _OCR1A = ((16_000_000 / 256) / Hz) - 1
+                                 	LDI R16, high(_OCR1A)
                                  	STS OCR1AH, R16
-                                 	LDI R16, low(6249)
+                                 	LDI R16, low(_OCR1A)
                                  	STS OCR1AL, R16
                                  	; To do a 16-bit write, the High byte must be written before the Low byte. 
                                  	; For a 16-bit read, the Low byte must be read before the High byte
@@ -1419,121 +1504,124 @@ C:\Users\WingedSeal\Documents\Atmel Studio\7.0\MorseCode\MorseCode\main.asm(11):
                                  
                                  	LDI R23, 0 ; PINC1 not pressed
                                  	LDI R22, 0 ; Time counter = 0
+                                 
+                                 	LDI R16, DASH
+                                 	OUT PORTD, R16
+                                 	LDI R16, 0xFF
+                                 	OUT PORTB, R16
                                  .include "delay.inc"
                                  
                                  	LDI R16, 0
-                                 	OUT TCNT0, R16
-                                 	LDI R16, (1 << OCF0A)
-                                 	OUT TIFR0, R16
+                                     STS TCNT1H, R16
+                                 	STS TCNT1L, R16
+                                 	; To do a 16-bit write, the High byte must be written before the Low byte. 
+                                 	; For a 16-bit read, the Low byte must be read before the High byte
+                                 	LDI R16, (1 << OCF1A)
+                                 	OUT TIFR1, R16
                                  	_LOOP_DELAY:
-                                 		IN R16, TIFR0
-                                 		SBRS R16, OCF0A
+                                 		IN R16, TIFR1
+                                 		SBRS R16, OCF1A
                                  		RJMP _LOOP_DELAY
                                  
+                                 ; X is reserved for input pointer
+                                 ; Y is reserved for output display pointer
                                  ; R24:25 is reserved for input_time_deltas size
                                  ; R23 is reserved for output_displays size (not during input) and 
-                                 ;   falling edge detecting (during input)
-                                 ; R22 is reserved for timer counter
+                                 ;   falling edge detection (during input)
+                                 ; R22 is reserved for timer counter (during input) and 
+                                 ;   keeping track of position in array Y when displaying (not during input)
                                  ; T-bit in SREG is reserved for keeping state (0 = not during input, 1 = during input)
-                                 
-                                 TODO:
-0000e0 cfff                      	RJMP TODO
                                  
                                  .cseg
                                  main:
-0000e1 ef0f
-0000e2 bf0d
-0000e3 e008
-0000e4 bf0e
-0000e5 ee0f
-0000e6 b90a
-0000e7 e003
-0000e8 b904
-0000e9 e000
-0000ea b907
-0000eb e10f
-0000ec b908
-0000ed e002
-0000ee 9300 0068
-0000f0 e00f
-0000f1 9300 006c
-0000f3 9478
-0000f4 e000
-0000f5 9300 0080
-0000f7 e00c
-0000f8 9300 0081
-0000fa e108
-0000fb 9300 0089
-0000fd e609
-0000fe 9300 0088
-000100 94e8
-000101 e0c0
-000102 e0d1
-000103 e0a0
-000104 e0b2
-000105 e070
-000106 e060                      	setup
-                                 	
-000107 e000                      	LDI R16, 0
-000108 9300 0085                     STS TCNT1H, R16
-00010a 9300 0084                 	STS TCNT1L, R16
-                                 	; To do a 16-bit write, the High byte must be written before the Low byte. 
-                                 	; For a 16-bit read, the Low byte must be read before the High byte
-00010c e002                      	LDI R16, (1 << OCF1A)
-00010d bb06                      	OUT TIFR1, R16
-                                 	_LOOP_DELAY_TEST:
-00010e b306                      		IN R16, TIFR1
-00010f ff01                      		SBRS R16, OCF1A
-000110 cffd                      		RJMP _LOOP_DELAY_TEST
-000111 0000                      	NOP
+                                 	.IFDEF _DEBUG
+                                 	.ENDIF
+0000f9 ef0f
+0000fa bf0d
+0000fb e008
+0000fc bf0e
+0000fd e70f
+0000fe b90a
+0000ff e003
+000100 b904
+000101 e000
+000102 b907
+000103 e00f
+000104 b908
+000105 e002
+000106 9300 0068
+000108 e00f
+000109 9300 006c
+00010b 9478
+00010c e000
+00010d 9300 0080
+00010f e00c
+000110 9300 0081
+000112 e002
+000113 9300 0089
+000115 e700
+000116 9300 0088
+000118 94e8
+000119 e0c0
+00011a e0d1
+00011b e0a0
+00011c e0b2
+00011d e070
+00011e e060
+00011f e001
+000120 b90b
+000121 ef0f
+000122 b905                      	setup
                                  loop:
-000112 cfff                      	RJMP loop
+000123 cfff                      	RJMP loop
                                  
                                  time_counter:
-000113 e060                      	LDI R22, 0
+000124 e060                      	LDI R22, 0
                                  	_TIME_COUNTER:
-000114 e000
-000115 bd06
-000116 e002
-000117 bb05
-000118 b305
-000119 ff01
-00011a cffd                      	delay100ms
-00011b 3f6f                      	CPI R22, 0xFF
-00011c f3b9                      	BREQ _TIME_COUNTER
-00011d 9563                      	INC R22
-00011e cff5                      	RJMP _TIME_COUNTER
+000125 e000
+000126 9300 0085
+000128 9300 0084
+00012a e002
+00012b bb06
+00012c b306
+00012d ff01
+00012e cffd                      	delayms
+00012f 3f6f                      	CPI R22, 0xFF
+000130 f3a1                      	BREQ _TIME_COUNTER
+000131 9563                      	INC R22
+000132 cff2                      	RJMP _TIME_COUNTER
                                  
                                  
                                  _PINC0_FALLING_EDGE_DETECTION:
-00011f ff70                      	SBRS R23, 0
-000120 c004                      		RJMP _PINC0_FALLING_EDGE_DETECTION_FAILED
-000121 e070                      	LDI R23, 0
-000122 cf74                      	RJMP morse_code_input_falling_edge_during_input
+000133 ff70                      	SBRS R23, 0
+000134 c004                      		RJMP _PINC0_FALLING_EDGE_DETECTION_FAILED
+000135 e070                      	LDI R23, 0
+000136 cf13                      	RJMP morse_code_input_falling_edge_during_input
                                  
                                  during_input:
-000123 9b30                      	SBIS PINC, 0
-000124 cffa                      	RJMP _PINC0_FALLING_EDGE_DETECTION
+000137 9b30                      	SBIS PINC, 0
+000138 cffa                      	RJMP _PINC0_FALLING_EDGE_DETECTION
                                  	_PINC0_FALLING_EDGE_DETECTION_FAILED:
-000125 9930                      	SBIC PINC, 0
-000126 cf06                      	RJMP morse_code_input_during_input
-000127 9931                      	SBIC PINC, 1
-000128 cf11                      	RJMP stop_during_input
-000129 9518                      	RETI
+000139 9930                      	SBIC PINC, 0
+00013a cefe                      	RJMP morse_code_input_during_input
+00013b 9931                      	SBIC PINC, 1
+00013c cf19                      	RJMP stop_during_input
+00013d 9518                      	RETI
                                  
                                  not_during_input:
-00012a 9930                      	SBIC PINC, 0
-00012b cf73                      	RJMP morse_code_input_not_during_input
-00012c 9932                      	SBIC PINC, 2
-00012d cf7b                      	RJMP go_left_not_during_input
-00012e 9933                      	SBIC PINC, 3
-00012f cf96                      	RJMP go_right_not_during_input
-000130 9518                      	RETI
+00013e 9930                      	SBIC PINC, 0
+00013f cf77                      	RJMP morse_code_input_not_during_input
+000140 9932                      	SBIC PINC, 2
+000141 cf9d                      	RJMP go_left_not_during_input
+000142 9933                      	SBIC PINC, 3
+000143 cf7f                      	RJMP go_right_not_during_input
+000144 9518                      	RETI
                                  
                                  pcint1_handler:
-000131 f38e                      	BRTS during_input
-000132 cff7                      	RJMP not_during_input
+000145 f38e                      	BRTS during_input
+000146 cff7                      	RJMP not_during_input
                                  	
+                                 
                                  .dseg
                                  	.EQU INPUT_BUFFER_SIZE = 1024
                                  	.EQU OUTPUT_BUFFER_SIZE = 256
@@ -1558,39 +1646,39 @@ counted separately from r26..r31 here.
 .dseg memory usage only counts static data declared with .byte
 
 "ATmega328P" register use summary:
-x  :   8 y  :   8 z  :   3 r0 :   9 r1 :   0 r2 :   0 r3 :   0 r4 :   0 
+x  :  14 y  :   8 z  :   3 r0 :  11 r1 :   0 r2 :   0 r3 :   0 r4 :   0 
 r5 :   0 r6 :   0 r7 :   0 r8 :   0 r9 :   0 r10:   0 r11:   0 r12:   0 
-r13:   0 r14:   0 r15:   0 r16:  95 r17:  11 r18:   6 r19:   0 r20:   0 
-r21:   0 r22:   7 r23:  17 r24:   8 r25:   8 r26:   3 r27:   3 r28:  11 
-r29:   2 r30:   2 r31:   2 
+r13:   0 r14:   0 r15:   0 r16:  82 r17:  11 r18:   8 r19:   0 r20:   0 
+r21:   0 r22:  31 r23:  17 r24:   8 r25:   8 r26:   4 r27:   4 r28:   4 
+r29:   3 r30:   2 r31:   2 
 Registers used: 17 out of 35 (48.6%)
 
 "ATmega328P" instruction use summary:
-.lds  :   0 .sts  :   0 adc   :   0 add   :   4 adiw  :   2 and   :   0 
+.lds  :   0 .sts  :   0 adc   :   0 add   :   2 adiw  :   4 and   :   0 
 andi  :   0 asr   :   0 bclr  :   0 bld   :   0 brbc  :   0 brbs  :   0 
-brcc  :   0 brcs  :   2 break :   0 breq  :   3 brge  :   0 brhc  :   0 
-brhs  :   0 brid  :   0 brie  :   0 brlo  :   2 brlt  :   0 brmi  :   0 
+brcc  :   0 brcs  :   4 break :   0 breq  :   3 brge  :   0 brhc  :   0 
+brhs  :   0 brid  :   0 brie  :   0 brlo  :   4 brlt  :   0 brmi  :   0 
 brne  :  14 brpl  :   0 brsh  :   2 brtc  :   0 brts  :   1 brvc  :   0 
 brvs  :   0 bset  :   0 bst   :   0 call  :   0 cbi   :   6 cbr   :   0 
 clc   :   0 clh   :   0 cli   :   0 cln   :   0 clr   :   0 cls   :   0 
 clt   :   2 clv   :   0 clz   :   0 com   :   0 cp    :   5 cpc   :   2 
-cpi   :  11 cpse  :   0 dec   :   4 eor   :   0 fmul  :   0 fmuls :   0 
-fmulsu:   0 icall :   0 ijmp  :   0 in    :   2 inc   :   3 jmp   :   0 
-ld    :   7 ldd   :   0 ldi   :  57 lds   :   0 lpm   :   3 lsl   :   6 
+cpi   :   9 cpse  :   0 dec   :   5 eor   :   0 fmul  :   0 fmuls :   0 
+fmulsu:   0 icall :   0 ijmp  :   0 in    :   1 inc   :   8 jmp   :   0 
+ld    :  10 ldd   :   0 ldi   :  60 lds   :   0 lpm   :   3 lsl   :   6 
 lsr   :   0 mov   :   2 movw  :   1 mul   :   0 muls  :   0 mulsu :   0 
-neg   :   0 nop   :   1 or    :   2 ori   :   0 out   :  22 pop   :   8 
-push  :   0 rcall :   0 ret   :   0 reti  :   4 rjmp  :  34 rol   :   0 
+neg   :   0 nop   :   0 or    :   2 ori   :   0 out   :  22 pop   :  10 
+push  :   0 rcall :   0 ret   :   0 reti  :   4 rjmp  :  35 rol   :   0 
 ror   :   0 sbc   :   1 sbci  :   0 sbi   :   6 sbic  :   5 sbis  :   1 
-sbiw  :   3 sbr   :   0 sbrc  :   0 sbrs  :   3 sec   :   0 seh   :   0 
-sei   :   5 sen   :   0 ser   :   0 ses   :   0 set   :   1 sev   :   0 
-sez   :   0 sleep :   0 spm   :   0 st    :   6 std   :   0 sts   :   8 
-sub   :   1 subi  :   1 swap  :   0 tst   :   4 wdr   :   0 
-Instructions used: 41 out of 113 (36.3%)
+sbiw  :   3 sbr   :   0 sbrc  :   0 sbrs  :   2 sec   :   0 seh   :   0 
+sei   :   6 sen   :   0 ser   :   0 ses   :   0 set   :   1 sev   :   0 
+sez   :   0 sleep :   0 spm   :   0 st    :   7 std   :   0 sts   :   8 
+sub   :   1 subi  :   1 swap  :   0 tst   :   8 wdr   :   0 
+Instructions used: 40 out of 113 (35.4%)
 
 "ATmega328P" memory use summary [bytes]:
 Segment   Begin    End      Code   Data   Used    Size   Use%
 ---------------------------------------------------------------
-[.cseg] 0x000000 0x000266    528     72    600   32768   1.8%
+[.cseg] 0x000000 0x00028e    568     72    640   32768   2.0%
 [.dseg] 0x000100 0x000600      0   1280   1280    2048  62.5%
 [.eseg] 0x000000 0x000000      0      0      0    1024   0.0%
 

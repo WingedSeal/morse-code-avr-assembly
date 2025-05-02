@@ -6,8 +6,28 @@
 	SEI
 .endmacro
 
+.EQU IGNORE_THRESHOLD = 3
+
+handle_last_input_below_threshold:
+	ADD R22, R16
+	BRCS UNSIGNED_OVERFLOW
+	LD R16, -X
+	ADD R22, R16
+	BRCS UNSIGNED_OVERFLOW
+	OVERFLOW_OR_NOT:
+	ST X+, R22
+	noRETI
+	RJMP time_counter
+	UNSIGNED_OVERFLOW:
+		LDI R22, 0xFF
+		RJMP OVERFLOW_OR_NOT
+
 morse_code_input_during_input:
-	LDI R23, 1
+	LDI R23, 1 ; Indicate holding button
+	LD R16, -X
+	CPI R16, IGNORE_THRESHOLD
+	BRLO handle_last_input_below_threshold
+	ADIW X, 1
 	LDI R16, 0xFF
 	OUT PORTB, R16
 	ST X+, R22
@@ -20,52 +40,75 @@ morse_code_input_during_input:
 	noRETI
 	RJMP time_counter
 
-stop_during_input:
-	CLT ; Update state to not during input
-	ST X+, R22
-	MOVW R24:R25, X
-	LDI XL, low(input_time_deltas)
-	LDI XH, high(input_time_deltas)
-	SUB R24, XL
-	SBC R25, XH
-	updateOutputDisplays
-	handleDisplay
-	noRETI
-	RJMP loop
 
-morse_code_input_falling_edge_during_input:	
-	LDI R23, 0
+morse_code_input_falling_edge_during_input:
+	LDI R23, 0 ; Indicate releasing button
+	LD R16, -X
+	CPI R16, IGNORE_THRESHOLD
+	BRLO handle_last_input_below_threshold
+	ADIW X, 1
 	LDI R16, 0x00
 	OUT PORTB, R16
 	ST X+, R22
 	noRETI
 	RJMP time_counter
 
+stop_during_input:
+	CLT ; Update state to not during input
+	LDI R22, 255
+	ST X+, R22
+
+	MOVW R24:R25, X
+	LDI XL, low(input_time_deltas)
+	LDI XH, high(input_time_deltas)
+	
+	SUB R24, XL
+	SBC R25, XH
+
+	.IFDEF _DEBUG
+	CALL print_X_input
+	.ENDIF
+	updateOutputDisplays
+	.IFDEF _DEBUG
+	CALL print_Y_output
+	.ENDIF
+	handleDisplay
+	
+	noRETI
+	RJMP loop
+
+
+
 morse_code_input_not_during_input:
 	SET ; Update state to during input
 	LDI R23, 1
-	LDI R16, 0xEF
+	LDI R16, 0x7F
 	OUT PORTD, R16
 	LDI R16, 0xFF
 	OUT PORTB, R16
+	LDI XL, low(input_time_deltas)
+	LDI XH, high(input_time_deltas)
 	noRETI
 	RJMP time_counter
 
-go_left_not_during_input:
-	LDI R16, low(output_displays)
-	ADD R16, R23
-	DEC R16
-	CP YL, R16
-	BREQ _CANT_GO_LEFT
+go_right_not_during_input:
+	INC R22
+	CP R22, R23 ; R22 == R23 - 1
+	BREQ _CANT_GO_RIGHT
+	; _CAN_GO_RIGHT
 		ADIW Y, 1
 		handleDisplay
-	_CANT_GO_LEFT:
+		INC R22
+	_CANT_GO_RIGHT:
+	DEC R22
 	RETI
 
-go_right_not_during_input:
-	CPI YL, low(output_displays)
-	BREQ _CANT_GO_RIGHT
+go_left_not_during_input:
+	TST R22
+	BREQ _CANT_GO_LEFT
+	; _CAN_GO_LEFT
 		SBIW Y, 1
+		DEC R22
 		handleDisplay
-	_CANT_GO_RIGHT:
+	_CANT_GO_LEFT:
 	RETI

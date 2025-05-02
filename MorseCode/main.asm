@@ -3,6 +3,9 @@
 .org PCI1addr
 	RJMP pcint1_handler
 
+ ;.EQU _DEBUG = 1
+
+.include "debug.asm"
 .include "display.inc"
 .include "parse.inc"
 .include "code.asm"
@@ -10,23 +13,28 @@
 .include "setup.inc"
 .include "delay.inc"
 
+; X is reserved for input pointer
+; Y is reserved for output display pointer
 ; R24:25 is reserved for input_time_deltas size
 ; R23 is reserved for output_displays size (not during input) and 
-;   falling edge detecting (during input)
-; R22 is reserved for timer counter
+;   falling edge detection (during input)
+; R22 is reserved for timer counter (during input) and 
+;   keeping track of position in array Y when displaying (not during input)
 ; T-bit in SREG is reserved for keeping state (0 = not during input, 1 = during input)
 
 .cseg
 main:
+	.IFDEF _DEBUG
+	_debug_setup
+	.ENDIF
 	setup
-
 loop:
 	RJMP loop
 
 time_counter:
 	LDI R22, 0
 	_TIME_COUNTER:
-	delay100ms
+	delayms
 	CPI R22, 0xFF
 	BREQ _TIME_COUNTER
 	INC R22
@@ -62,6 +70,7 @@ pcint1_handler:
 	BRTS during_input
 	RJMP not_during_input
 	
+
 .dseg
 	.EQU INPUT_BUFFER_SIZE = 1024
 	.EQU OUTPUT_BUFFER_SIZE = 256

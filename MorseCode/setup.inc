@@ -10,13 +10,13 @@
 	OUT SPL, R16
 	LDI R16, high(RAMEND)
 	OUT SPH, R16
-	LDI R16, 0xEF
+	LDI R16, 0x7F
 	OUT DDRD, R16
 	LDI R16, 0x03
 	OUT DDRB, R16
 	LDI R16, 0x0
 	OUT DDRC, R16
-	LDI R16, 0x1F
+	LDI R16, 0x0F
 	OUT PORTC, R16
 
 	LDI R16, (1 << PCIE1)
@@ -29,9 +29,11 @@
 	STS TCCR1A, R16
 	LDI R16, (1 << WGM12) | (1 << CS12) ; CTC mode + Prescaler 256
 	STS TCCR1B, R16
-	LDI R16, high(6249) ; 16MHz / 256 / 6250 = 10Hz (100ms)
+	.EQU Hz = 100 ; 10ms
+	.EQU _OCR1A = ((16_000_000 / 256) / Hz) - 1
+	LDI R16, high(_OCR1A)
 	STS OCR1AH, R16
-	LDI R16, low(6249)
+	LDI R16, low(_OCR1A)
 	STS OCR1AL, R16
 	; To do a 16-bit write, the High byte must be written before the Low byte. 
 	; For a 16-bit read, the Low byte must be read before the High byte
@@ -45,4 +47,9 @@
 
 	LDI R23, 0 ; PINC1 not pressed
 	LDI R22, 0 ; Time counter = 0
+
+	LDI R16, DASH
+	OUT PORTD, R16
+	LDI R16, 0xFF
+	OUT PORTB, R16
 .endmacro

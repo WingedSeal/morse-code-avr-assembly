@@ -1,4 +1,4 @@
-.macro delay100ms
+.macro delayms
 	LDI R16, 0
     STS TCNT1H, R16
 	STS TCNT1L, R16
