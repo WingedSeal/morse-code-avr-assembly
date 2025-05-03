@@ -86,8 +86,10 @@ morse_code_input_not_during_input:
 	OUT PORTD, R16
 	LDI R16, 0xFF
 	OUT PORTB, R16
-	LDI XL, low(input_time_deltas)
-	LDI XH, high(input_time_deltas)
+	LDI XL, low(input_time_deltas - 1)
+	LDI XH, high(input_time_deltas - 1)
+    ST X+, R16 ; Set previous byte to 255 to prevent handle_last_input_below_threshold 
+    ;  from triggering
 	noRETI
 	RJMP time_counter
 
